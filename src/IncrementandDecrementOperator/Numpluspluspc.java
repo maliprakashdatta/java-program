@@ -1,4 +1,4 @@
-package IncrementOperator;
+package IncrementandDecrementOperator;
 import java.util.Scanner;
 public class Numpluspluspc
 {
