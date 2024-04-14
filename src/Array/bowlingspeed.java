@@ -23,9 +23,10 @@ public class bowlingspeed
             System.out.println("Bolwing this Over:-" +boll+ "=" +bowling[boll]);
             boll++;
         }
+
         float timeSeconds;
         float mps,kph, mph;
-
+        System.out.println("********BOWLING CALCULATION**********");
         System.out.print("Input distance in meters: ");
         float distance = scanner.nextFloat();
 
