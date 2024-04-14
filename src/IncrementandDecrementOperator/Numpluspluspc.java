@@ -8,9 +8,9 @@ public class Numpluspluspc
         Scanner scanner=new Scanner(System.in);
         int numcount=scanner.nextInt();
         System.out.println("****Incremented Numcount****");
-        while (numcount<=10)
+        while (numcount<=100)
         {
-            System.out.println(numcount);
+            System.out.println(+numcount);
             numcount++;
         }
         System.out.println("****End Incremented Numcount****");
