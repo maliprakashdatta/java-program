@@ -28,5 +28,7 @@ class HashSet
             System.out.println("dose not contains");
 
         }
+        //Delete
+        //set.remove(5);
     }
 }  

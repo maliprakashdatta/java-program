@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class simple
+public class NumPlusStar
 {
 
     public static void printPattern(int n)
