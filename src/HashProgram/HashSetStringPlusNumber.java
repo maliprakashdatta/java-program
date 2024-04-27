@@ -1,34 +1,43 @@
-import java.util.*;
-class HashSetNumber
-{
-    public static void main(String args[])
-    {
-        //Creating HashSet and adding elements
-        java.util.HashSet<String,Integer> set=new java.util.HashSet();
-        set.add("India",140);
-        set.add("MH",30);
-        set.add("UP",40);
-        set.add("KA",50);
-        set.add("MP",20);
-        Iterator<String,Integer> i=set.iterator();
-        //while(i.hasNext())
-        //{
-            //System.out.println(i.next());
-       // }
-        //SetSize
-        System.out.println("Size of set is:"+set.size());
-        //Print the element
-        System.out.println(set);
-        if (set.contains(1))
-        {
-            System.out.println("Set contains one");
-        }
-        if (!set.contains(6))
-        {
-            System.out.println("dose not contains");
+// Java program to illustrate HashMap class
+// of java.util package
 
+// Importing HashMap class
+import java.util.HashMap;
+
+// Main class
+public class HashSetStringPlusNumber {
+
+    // Main driver method
+    public static void main(String[] args)
+    {
+        // Create an empty hash map by declaring object
+        // of string and integer type
+        HashMap<String, Integer> map = new HashMap<>();
+
+        // Adding elements to the Map
+        // using standard put() method
+        map.put("vishal", 10);
+        map.put("sachin", 30);
+        map.put("vaibhav", 20);
+
+        // Print size and content of the Map
+        System.out.println("Size of map is:- "
+                + map.size());
+
+        // Printing elements in object of Map
+        System.out.println(map);
+
+        // Checking if a key is present and if
+        // present, print value by passing
+        // random element
+        if (map.containsKey("vishal")) {
+
+            // Mapping
+            Integer a = map.get("vishal");
+
+            // Printing value for the corresponding key
+            System.out.println("value for key"
+                    + " \"vishal\" is:- " + a);
         }
-        //Delete
-        //set.remove(5);
     }
-}  
+}
