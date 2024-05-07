@@ -4,8 +4,6 @@
 package HomeWork;
 public class ProgramTwentyFive25
 {
-    public static void main(String[] args)
-    {
         static double sum(int n)
         {
             double i, sum = 0.0;
