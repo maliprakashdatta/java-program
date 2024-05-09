@@ -28,6 +28,9 @@ public class ArrayListDemo1
         //Set Size
         list.set(2,6);
         System.out.println("Set The Element:-"+list);
+        //get Size
+        list.get(1);
+       System.out.println("Get Element of Array List:-"+list);
 
     }
 
