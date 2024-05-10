@@ -1,6 +1,5 @@
 //Write a program to Check whether a character is a vowel or consonant using switch statement
 package HomeWork;
-import java.io.*;
 import java.util.Scanner;
 
 public class ProgramThree
