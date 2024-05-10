@@ -1,8 +1,6 @@
 //Write a program to print remark according to the grade obtained using switch? statement
 package HomeWork;
-
 import java.util.Scanner;
-
 public class ProgramSeven
 {
     public static void main(String[] args) {
@@ -14,7 +12,7 @@ public class ProgramSeven
         int marks4 = input.nextInt();
         int marks5 = input.nextInt();
         int Total = marks1 + marks2 + marks3 + marks4 + marks5;
-        float per = Total / 5;
+        float per = Total/5;
         System.out.println("Total :" + Total);
         System.out.println("Percentage :" + per);
         if (per >= 90)
