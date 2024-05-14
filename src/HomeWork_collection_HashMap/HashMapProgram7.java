@@ -13,13 +13,12 @@ public record HashMapProgram7() {
         hash.put(4, "BA");
         System.out.println("UG Course name hash map:-" + hash);
         //contains a mapping for the specified key
-        System.out.println("contains a mapping for the specified key:-");
-        if (hash.containsValue("BCA"))
-        {
-            System.out.println("is Contain " );
-        }
-        else {
-            System.out.println("is NOT Contain");
-        }
+        System.out.println("Is the key '2' present? " + hash.containsKey(2));
+        // Checking for the key_element '5'
+        System.out.println("Is the key '5' present? " +
+                hash.containsKey(5));
     }
 }
+
+
+
