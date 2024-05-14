@@ -11,7 +11,7 @@ public class HashMapProgram3 {
         hash.put(2, "B.Sc");
         hash.put(3, "B.Com");
         hash.put(4, "BA");
-        System.out.println("Course name hash map:-" + hash);
+        System.out.println("UG Course name hash map:-" + hash);
         //Another hash Map
         HashMap<Integer, String> hash1 = new HashMap<Integer, String>();
         //Enter UG Corse Name
@@ -19,7 +19,7 @@ public class HashMapProgram3 {
         hash1.put(6, "M.Sc");
         hash1.put(7, "M.Com");
         hash1.put(8, "MA");
-        System.out.println("Course name hash1 map:-" + hash1);
+        System.out.println("PG Course name hash1 map:-" + hash1);
         // specified map to another map
         hash1.putAll(hash);
         System.out.println("---------------------------------------------------------");
