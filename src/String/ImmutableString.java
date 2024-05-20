@@ -28,7 +28,15 @@ public class ImmutableString {
         System.out.println("Printed String:-"+(s8==s9));
         System.out.println("Printed String:-"+(s8==s10));
         System.out.println("Printed String:-"+(s8==s11));
-        //
+        System.out.println("-------------------------------------------");
+        // //To use the By ComaperTO() methods
+        String s12="Prakash";
+        String s13="Prakash";
+        String s14=new String("Prakash");
+        String s15="First String";
+        System.out.println("Printed String:-"+(s12.compareTo(s13)));
+        System.out.println("Printed String:-"+(s12.compareTo(s14)));
+        System.out.println("Printed String:-"+(s12.compareTo(s15)));
 
 
     }
