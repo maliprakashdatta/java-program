@@ -12,4 +12,3 @@ public class ConcatString {
 //        System.out.println("Printed String:-"+s1);
     }
 }
-h
