@@ -21,7 +21,7 @@ public class mainVehical {
         System.out.println("Bikeprice:-"+carobj.getBikeprice());
         System.out.println("---------------TRUCKDetails---------------------");
         Truck truckobj=new Truck();
-        truckobj.setTruckname("Ashok");
+        truckobj.setTruckname("Tank truck.");
         System.out.println("Truck Details:"+truckobj.getTruckname());
         System.out.println("---------------RikshaDetails---------------------");
         //to stand the truck object in riksha
