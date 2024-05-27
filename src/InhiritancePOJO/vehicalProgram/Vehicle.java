@@ -54,6 +54,7 @@ public class Vehicle {
         Riksha r1=new Riksha();
         r1.setRikshaSpeed(60);
         System.out.println("To check the Riksha Speed:-"+r1.RikshaSpeed);
+        System.out.println("=============End The Program=================");
     }
 
 }
