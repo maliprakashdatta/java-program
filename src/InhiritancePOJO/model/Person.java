@@ -4,11 +4,13 @@ public class Person {
     private String name;
     private Address address;
 
-    public void setName(String name) {
+    public void setName(String name)
+    {
         this.name = name;
     }
 
-    public String getName() {
+    public String getName()
+    {
         return name;
     }
 
@@ -16,7 +18,8 @@ public class Person {
         return address;
     }
 
-    public void setAddress(Address address) {
+    public void setAddress(Address address)
+    {
         this.address = address;
     }
 }
