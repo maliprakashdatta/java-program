@@ -20,14 +20,19 @@ public class MachineMain {
         System.out.println("-------------JCB Machine Details---------");
         System.out.println("Enter the jcbtype:-");
         Scanner jt=new Scanner(System.in);
-        int jcbtype=jt.nextInt();
+        String jcbtype=jt.nextLine();
         System.out.println("JCB Type:-"+jcbtype);
 
-        System.out.println("-------------JCB Machine Details---------");
-        System.out.println("Enter the jcbtype:-");
+        System.out.println("Enter the jcbworkingspeed:-");
         Scanner jws=new Scanner(System.in);
-        int jcbworkingspeed=jws.nextInt();
+       int jcbworkingspeed=jws.nextInt();
         System.out.println("JCB jcb working speed:-"+jcbworkingspeed);
+
+        System.out.println("----------CarWashingMachine------------");
+        System.out.println("Enter the MachinePrice");
+        Scanner cmw=new Scanner(System.in);
+        int MachinePrice = cmw.nextInt();
+        System.out.println(" Car Washing Machine Price:"+MachinePrice);
 
 
 
