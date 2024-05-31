@@ -12,7 +12,7 @@ public class JCBMachine extends MachineMain
 
         this.jcbtype=jcbtype;
     }
-    public String getjcbCompany()
+    public String getJcbtype()
     {
         return jcbtype;
     }
