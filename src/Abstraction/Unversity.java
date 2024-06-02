@@ -1,4 +1,4 @@
 package Abstraction;
 
-public class Umversity {
+public class Unversity {
 }
