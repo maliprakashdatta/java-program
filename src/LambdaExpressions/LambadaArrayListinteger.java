@@ -11,7 +11,7 @@ public class LambadaArrayListinteger {
         Number.add(2);
         Number.add(5);
         Number.add(4);
-        System.out.println("Orignal ArrayList:-"+Number);
+        Number.forEach( (n) -> { System.out.println("Orignal ArrayList:-"+Number); } );
     //to sort a given array list
         Collections.sort(Number);
         System.out.println("To sorted a given array list"+Number);
