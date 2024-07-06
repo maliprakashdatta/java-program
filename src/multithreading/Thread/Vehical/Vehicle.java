@@ -1,6 +1,7 @@
 package multithreading.Thread.Vehical;
 
-public abstract class Vehicle extends Thread {
+public abstract class Vehicle extends Thread
+{
     private String name;
     private int speed; // Speed in milliseconds (lower value means faster)
 
