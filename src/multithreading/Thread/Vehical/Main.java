@@ -1,7 +1,4 @@
 package multithreading.Thread.Vehical;
-//
-//public class Main {
-//}
 public class Main {
     public static void main(String[] args) {
         // Create vehicle threads
