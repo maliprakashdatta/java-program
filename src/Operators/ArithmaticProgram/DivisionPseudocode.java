@@ -1,3 +1,5 @@
+package Operators.ArithmaticProgram;
+
 import java.util.Scanner;
 
 public class DivisionPseudocode
